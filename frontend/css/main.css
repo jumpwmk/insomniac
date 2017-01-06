@@ -1,0 +1,55 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.center {
+	text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: #e6e6e6;
+  background-color: #272822;
+}
+
+footer~*{
+  display:none;
+}
+
+.user-red {
+	color:#d50000 !important;
+}
+.user-orange {
+	color:#f57c00 !important;
+}
+.user-purple {
+	color:#9c27b0 !important;
+}
+.user-blue {
+	color:#1976d2 !important;
+}
+.user-cyan {
+	color:#00796b !important;
+}
+.user-green {
+	color:#388e3c !important;
+}
+.user-gray {
+	color:#616161 !important;
+}
+.user-red , .user-orange , .user-purple , .user-blue , .user-cyan , .user-green , .user-gray {
+	font-weight:bold;
+}
+.user-unrated {
+	color:black !important;
+}
